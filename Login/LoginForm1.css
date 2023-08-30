@@ -1,0 +1,297 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	display: flex;
+	background: #ff23;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 99;
+}
+
+.logo {
+	margin-left: -50px;
+	width: 100px;
+	height: 100px;
+	font-size: 2em;
+	color:#fff;
+	user-select: none;
+}
+
+.navigation a {
+	position: relative;
+	font-size: 1.1em;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 40px;
+}
+
+.navigation a::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -6px;
+	width: 100%;
+	height: 3px;
+	background:#fff;
+	border-radius: 5px;
+	transform-origin: right;
+	transform: scaleX(0);
+	transition: transform .5s;
+}
+
+.navigation a:hover::after{
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+.navigation .btnlogin-popup {
+	width: 130px;
+	height: 50px;
+	background: transparent;
+	border: 2px solid #fff;
+	outline: none;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 1.1em;
+	color: #fff;
+	font-weight: 500;
+	margin-left: 40px;
+	transition: .5s;
+}
+
+.navigation .btnlogin-popup:hover{
+	background: #fff;
+	color: #162938;
+}
+
+
+.wrapper{
+	position: relative;
+	width: 400px;
+	height: 440px;
+	background: transparent;
+	border: 2px solid;
+	border-radius: 20px;
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 30px rgba(0,0,0,5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: transform .5s ease,height .2s ease;
+	transform: scale(0);
+	overflow: hidden;
+}
+
+.wrapper .formbox.login {
+	transition: transform .18s ease;
+	transform: translateX(0);
+}
+
+.wrapper.active .formbox.login{
+	transition: none;
+	transform: translateX(-400px);
+}
+
+.wrapper.active-popup {
+	transform: scale(1);
+}
+
+.wrapper.active{
+	height: 520px;
+}
+
+.wrapper .formbox{
+	width: 100%;
+	padding: 40px;
+}
+
+.wrapper .formbox.register{
+	position: absolute;
+	transform: translateX(400px);
+}
+
+.wrapper.active .formbox.register{
+	transition: transform .18s ease;
+	transform: translateX(0);
+}
+
+.wrapper .icon-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 45px;
+	height: 45px;
+	font-size: 2em;
+	color: #FFF;
+	display: flex;
+	cursor: pointer;
+	justify-content: center;
+	align-items: center;
+}
+
+.formbox h2 {
+	font-size: 2em;
+	color: #FFF;
+	text-align: center;
+}
+
+.input-box {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	border-bottom: 2px solid #FFF;
+	margin: 30px 0;
+}
+
+.input-box label {
+	position: absolute;
+	top:50%;
+	left: 5px;
+	transform: translateY(-50%);
+	font-size: 1em;
+	font-weight: 500;
+	color: #fff;
+    pointer-events: none;
+	transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+	top: -5px;
+}
+
+
+.input-box input {
+	 width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+	font-size: 1em;
+	color: #fff;
+	font-weight: 600;
+	padding: 0 35px 0 5px;
+}
+
+.input-box .icon {
+	 position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+	line-height: 57px;
+}
+
+.remember-forgot{
+	font-size: .9em;
+	color: #fff;
+	font-weight: 500;
+	margin: -15px 0 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.remember-forgot label input {
+	margin-right: 3px;
+}
+
+.remember-forgot a {
+	 color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.btn {
+	width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.btn:hover{
+	background: #E0BA34;
+	color: #fff;
+	border: 1px solid;
+	text-shadow: none;
+}
+
+.login-register{
+	 font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.login-register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.login-register p a:hover{
+    text-decoration: underline;
+}
+
+.text-box {
+	display: flex;
+	background: url(national_gallery_of_the_faroe_islands_ai_exhibit_insprired_by_van_gogh.png) no-repeat	;
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,344px);
+	text-align: center;
+}
+
+.text-box h3 {
+	color: #F7DC5F;
+	position: absolute;
+	font-size: 62px;
+	text-align: center;
+	
+}
+
+.text-box p {
+		margin: 10px , 0 , 40px;
+		font-size: 14px;
+		color:#F7DC5F;
+		position: absolute;
+	 text-align: center;
+	 top: 60%;
+	 left: 50%;
+	 transform: translate(-50%,-50%);
+}
+
+.text-box a {
+	font-size: 14px;
+		color:#F7DC5F ;
+}
