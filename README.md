@@ -1,6 +1,6 @@
-# 💫 About Me:
-Hi 👋 My name is Nhan or you can call me Noah, and i'm a software developer
-
+# 💫 About Me: Hi 👋 My name is Nhan or you can call me Noah
+I'm a student at IUH majoring in Software Engineering. Currently, I'm focusing on Desktop Application Development, Web Application Development,
+exploring how to build efficient and scalable applications.
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/nh4nisme) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/noahdemour) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/hữu-nhân-493a9b329) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:nguyenhuunhan190495@gmail.com) 
