@@ -1,5 +1,5 @@
-# 💫 About Me: Hi 👋 My name is Nhan or you can call me Noah
-I'm a student at IUH majoring in Software Engineering. Currently, I'm focusing on Desktop Application Development, Web Application Development,
+# 💫 About Me:
+Hi 👋 My name is Nhan or you can call me Noah. I'm a student at IUH majoring in Software Engineering. Currently, I'm focusing on Desktop Application Development, Web Application Development,
 exploring how to build efficient and scalable applications.
 
 ## 🌐 Socials:
