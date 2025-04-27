@@ -10,7 +10,7 @@ Hi, I'm Noah, currently studying Software Engineering at IUH (Industrial Univers
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=Nh4nisme&theme=blue_navy&hide_border=true&include_all_commits=true&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=Nh4nisme&theme=blue_navy&hide_border=true)<br/>
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nh4nisme&layout=pie&theme=blue_navy)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nh4nisme&layout=pie&theme=blue_navy&hide border=true)](https://github.com/anuraghazra/github-readme-stats)
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Nh4nisme&limit=5&theme=blue_navy&combine_all_yearly_contributions=true)
